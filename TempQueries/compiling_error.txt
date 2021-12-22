@@ -1,0 +1,5 @@
+C:/Strawberry/c/bin/../lib/gcc/i686-w64-mingw32/8.3.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\young\AppData\Local\Temp\cc6nXDkx.o:main.cpp:(.text+0x76): undefined reference to `TemperatureDatabase::TemperatureDatabase()'
+C:/Strawberry/c/bin/../lib/gcc/i686-w64-mingw32/8.3.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\young\AppData\Local\Temp\cc6nXDkx.o:main.cpp:(.text+0xaf): undefined reference to `TemperatureDatabase::loadData(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+C:/Strawberry/c/bin/../lib/gcc/i686-w64-mingw32/8.3.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\young\AppData\Local\Temp\cc6nXDkx.o:main.cpp:(.text+0xd0): undefined reference to `TemperatureDatabase::~TemperatureDatabase()'
+C:/Strawberry/c/bin/../lib/gcc/i686-w64-mingw32/8.3.0/../../../../i686-w64-mingw32/bin/ld.exe: C:\Users\young\AppData\Local\Temp\cc6nXDkx.o:main.cpp:(.text+0xfb): undefined reference to `TemperatureDatabase::~TemperatureDatabase()'
+collect2.exe: error: ld returned 1 exit status
