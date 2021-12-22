@@ -1,0 +1,24 @@
+In file included from C:\Cpp\Employee Class\Driver.cpp:6:0:
+C:\Cpp\Employee Class\Employee.h:14:19: error: expected ')' before 'name'
+   Employee(string name; string department; string title; int salary)
+                   ^~~~
+C:\Cpp\Employee Class\Employee.h:14:25: error: 'string' does not name a type
+   Employee(string name; string department; string title; int salary)
+                         ^~~~~~
+C:\Cpp\Employee Class\Employee.h:14:44: error: 'string' does not name a type
+   Employee(string name; string department; string title; int salary)
+                                            ^~~~~~
+C:\Cpp\Employee Class\Employee.h:14:62: error: expected ';' at end of member declaration
+   Employee(string name; string department; string title; int salary)
+                                                              ^~~~~~
+C:\Cpp\Employee Class\Employee.h:14:62: error: redeclaration of 'int Employee::salary'
+C:\Cpp\Employee Class\Employee.h:11:17: note: previous declaration 'int Employee::salary'
+   int salary = -1;
+                 ^
+C:\Cpp\Employee Class\Employee.h:14:68: error: expected unqualified-id before ')' token
+   Employee(string name; string department; string title; int salary)
+                                                                    ^
+In file included from C:\Cpp\Employee Class\Driver.cpp:7:0:
+C:\Cpp\Employee Class\Employee.cpp:22:20: error: definition of implicitly-declared 'constexpr Employee::Employee()'
+ Employee::Employee(){
+                    ^

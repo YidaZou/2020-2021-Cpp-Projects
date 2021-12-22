@@ -1,0 +1,19 @@
+In file included from C:\Cpp\Exam 2\Driver.cpp:20:0:
+C:\Cpp\Exam 2\EarthQuake.cpp: In constructor 'QuakeDataSegment::QuakeDataSegment()':
+C:\Cpp\Exam 2\EarthQuake.cpp:24:1: warning: 'QuakeDataSegment::waveAmplitude' should be initialized in the member initialization list [-Weffc++]
+ QuakeDataSegment::QuakeDataSegment() {
+ ^~~~~~~~~~~~~~~~
+C:\Cpp\Exam 2\EarthQuake.cpp:24:1: warning: 'QuakeDataSegment::latitude' should be initialized in the member initialization list [-Weffc++]
+C:\Cpp\Exam 2\EarthQuake.cpp:24:1: warning: 'QuakeDataSegment::longitude' should be initialized in the member initialization list [-Weffc++]
+C:\Cpp\Exam 2\EarthQuake.cpp:24:1: warning: 'QuakeDataSegment::depth' should be initialized in the member initialization list [-Weffc++]
+C:\Cpp\Exam 2\EarthQuake.cpp: In constructor 'QuakeDataSegment::QuakeDataSegment(double, double, double, double)':
+C:\Cpp\Exam 2\EarthQuake.cpp:33:1: warning: 'QuakeDataSegment::waveAmplitude' should be initialized in the member initialization list [-Weffc++]
+ QuakeDataSegment::QuakeDataSegment(double wa, double lat, double longi, double dep) {
+ ^~~~~~~~~~~~~~~~
+C:\Cpp\Exam 2\EarthQuake.cpp:33:1: warning: 'QuakeDataSegment::latitude' should be initialized in the member initialization list [-Weffc++]
+C:\Cpp\Exam 2\EarthQuake.cpp:33:1: warning: 'QuakeDataSegment::longitude' should be initialized in the member initialization list [-Weffc++]
+C:\Cpp\Exam 2\EarthQuake.cpp:33:1: warning: 'QuakeDataSegment::depth' should be initialized in the member initialization list [-Weffc++]
+C:\Cpp\Exam 2\EarthQuake.cpp: In member function 'void EarthQuake::setDistanceFromQuake()':
+C:\Cpp\Exam 2\EarthQuake.cpp:85:37: error: 'M_PI' was not declared in this scope
+  double x = earthquakeGpsLatitude * M_PI/180; // in radians
+                                     ^~~~
