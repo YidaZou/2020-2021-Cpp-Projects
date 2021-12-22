@@ -1,0 +1,257 @@
+In file included from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:0:
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:8:15: error: expected ';' before ',' token
+ using std::cin, std::cout, std::endl, std::string, std::ifstream;
+               ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:8:15: error: expected unqualified-id before ',' token
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:8:26: error: expected constructor, destructor, or type conversion before ',' token
+ using std::cin, std::cout, std::endl, std::string, std::ifstream;
+                          ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:8:37: error: expected constructor, destructor, or type conversion before ',' token
+ using std::cin, std::cout, std::endl, std::string, std::ifstream;
+                                     ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:8:50: error: expected constructor, destructor, or type conversion before ',' token
+ using std::cin, std::cout, std::endl, std::string, std::ifstream;
+                                                  ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:8:65: error: expected constructor, destructor, or type conversion before ';' token
+ using std::cin, std::cout, std::endl, std::string, std::ifstream;
+                                                                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:45:24: error: 'string' does not name a type
+ char** loadLevel(const string fileName, int& maxRow, int& maxCol, Player& player);
+                        ^~~~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:16:24: error: 'string' does not name a type
+ char** loadLevel(const string fileName, int& maxRow, int& maxCol, Player& player) {
+                        ^~~~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp: In function 'char** loadLevel(int, int&, int&, Player&)':
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: error: 'cout' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:17:5: note: in expansion of macro 'INFO'
+     INFO(maxRow);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:17:5: note: in expansion of macro 'INFO'
+     INFO(maxRow);
+     ^~~~
+In file included from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:61:18: note:   'std::cout'
+   extern ostream cout;  /// Linked to standard output
+                  ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: error: 'endl' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:17:5: note: in expansion of macro 'INFO'
+     INFO(maxRow);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:17:5: note: in expansion of macro 'INFO'
+     INFO(maxRow);
+     ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:590:5: note:   'std::endl'
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:20:5: error: 'ifstream' was not declared in this scope
+     ifstream ifs(fileName);
+     ^~~~~~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:20:5: note: suggested alternative:
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:38:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iosfwd:162:34: note:   'std::ifstream'
+   typedef basic_ifstream<char>   ifstream;
+                                  ^~~~~~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:21:10: error: 'ifs' was not declared in this scope
+     if (!ifs.is_open()) {
+          ^~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:25:5: error: 'ifs' was not declared in this scope
+     ifs >> maxRow >> maxCol;
+     ^~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp: In function 'char** createMap(int, int)':
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: error: 'cout' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:80:5: note: in expansion of macro 'INFO'
+     INFO(maxRow);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:80:5: note: in expansion of macro 'INFO'
+     INFO(maxRow);
+     ^~~~
+In file included from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:61:18: note:   'std::cout'
+   extern ostream cout;  /// Linked to standard output
+                  ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: error: 'endl' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:80:5: note: in expansion of macro 'INFO'
+     INFO(maxRow);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:80:5: note: in expansion of macro 'INFO'
+     INFO(maxRow);
+     ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:590:5: note:   'std::endl'
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp: In function 'void deleteMap(char**, int)':
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: error: 'cout' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:103:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:103:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+In file included from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:61:18: note:   'std::cout'
+   extern ostream cout;  /// Linked to standard output
+                  ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: error: 'endl' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:103:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:103:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:590:5: note:   'std::endl'
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp: In function 'char** resizeMap(char**, int&, int&)':
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: error: 'cout' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:126:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:126:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+In file included from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:61:18: note:   'std::cout'
+   extern ostream cout;  /// Linked to standard output
+                  ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: error: 'endl' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:126:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:126:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:590:5: note:   'std::endl'
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp: In function 'int doPlayerMove(char**, int, int, Player&, int&, int&)':
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: error: 'cout' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:168:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:168:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+In file included from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:61:18: note:   'std::cout'
+   extern ostream cout;  /// Linked to standard output
+                  ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: error: 'endl' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:168:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:168:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:590:5: note:   'std::endl'
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp: In function 'bool doMonsterAttack(char**, int, int, Player&)':
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: error: 'cout' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:217:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:17: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                 ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:217:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+In file included from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:61:18: note:   'std::cout'
+   extern ostream cout;  /// Linked to standard output
+                  ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: error: 'endl' was not declared in this scope
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:217:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:3:94: note: suggested alternative:
+ #define INFO(X) cout << "[INFO] ("<<__FUNCTION__<<":"<<__LINE__<<") " << #X << " = " << X << endl;
+                                                                                              ^
+C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:217:5: note: in expansion of macro 'INFO'
+     INFO(map);
+     ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.h:5,
+                 from C:\Cpp\[HW] Dungeon Crawler Starter Code\logic.cpp:1:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:590:5: note:   'std::endl'
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^~~~
